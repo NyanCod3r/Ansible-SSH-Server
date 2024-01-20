@@ -27,14 +27,11 @@ Host *
 
 alias for legacy connections: `alias ssh_ignore="ssh -F /dev/null"`
 
-## Inspired by
-* [Secure Secure Shell](https://stribika.github.io/2015/01/04/secure-secure-shell.html)
+## References
 * [Mozilla Wiki - Security/Guidelines/OpenSSH](https://wiki.mozilla.org/Security/Guidelines/OpenSSH)
-* [BetterCrypto](https://github.com/BetterCrypto/Applied-Crypto-Hardening)
-* [Manpage sshd_config](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man5/sshd_config.5)
 
 ## Requirements
-* Ubuntu or Debian
+* Ubuntu , Debian or RHEL/Alma
 * OpenSSH Server >= 6.5 (which is in Ubuntu >= 14.04 and Debian >= 8)
 
 ## Role Variables

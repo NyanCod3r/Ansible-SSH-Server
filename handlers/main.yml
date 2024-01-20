@@ -2,10 +2,10 @@
 # handlers file for secure-ssh
 - name: restart ssh
   service:
-    name: ssh
+    name: "{{ 'sshd' if ansible_os_family == 'RedHat' else 'ssh' }}"
     state: restarted
 
 - name: reload ssh
   service:
-    name: ssh
+    name: "{{ 'sshd' if ansible_os_family == 'RedHat' else 'ssh' }}"
     state: reloaded

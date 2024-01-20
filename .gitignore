@@ -51,3 +51,9 @@ $RECYCLE.BIN/
 # KDE directory preferences
 .directory
 
+### Others ###
+*.class
+*.log
+*.pyc
+*.swp
+
